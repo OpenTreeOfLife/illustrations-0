@@ -3,7 +3,7 @@
 {
 "branchRotation": "UNCHANGED", 
 "data": {}, 
-"height": 1301.306227195038, 
+"height": 160.78280321220143, 
 "id": "tree-1", 
 "layout": "RECTANGLE", 
 "metadata": {
@@ -29,7 +29,7 @@
 "rootY": 834.8235294117646, 
 "style": {}, 
 "tipsAlignment": "RIGHT", 
-"width": 110.88247466819973
+"width": 1046.1992886671794
 }
 ], 
 "metadata": {
@@ -39,8 +39,8 @@
 "date_created": "2017-01-07T04:48:01.847Z", 
 "description": "", 
 "dois": [], 
-"name": "skinny tree", 
-"sha": "", 
+"name": "skinny tree (horizontal)", 
+"sha": "99eff855a373dd1038e75df74debcee962d8a3d9", 
 "tags": []
 }, 
 "style": {
@@ -162,7 +162,7 @@
 }, 
 {
 "branchLengths": "", 
-"height": 1301.306227195038, 
+"height": 160.78280321220143, 
 "layout": "cartesian", 
 "radialArc": [
 0, 
@@ -172,7 +172,7 @@
 "radius": 229.5, 
 "tipsAlignment": "RIGHT", 
 "type": "phylogram", 
-"width": 110.88247466819973
+"width": 1046.1992886671794
 }
 ], 
 "values": {

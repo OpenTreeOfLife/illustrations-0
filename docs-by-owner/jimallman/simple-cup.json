@@ -20,11 +20,11 @@
 }, 
 "nodeLabelField": "ottTaxonName", 
 "radialArc": [
-0, 
-178.7352717098313
+180.4724688984885, 
+0.34747340427657036
 ], 
 "radialSweep": "CLOCKWISE", 
-"radius": 124.52642243868891, 
+"radius": 206.35898071897117, 
 "rootX": 377.5, 
 "rootY": 493, 
 "style": {}, 
@@ -40,7 +40,7 @@
 "description": "", 
 "dois": [], 
 "name": "simple cup", 
-"sha": "", 
+"sha": "c0d90754b516d30560561bb70ae98a7e5cfd0858", 
 "tags": []
 }, 
 "style": {
@@ -165,11 +165,11 @@
 "height": 396, 
 "layout": "radial", 
 "radialArc": [
-0, 
-178.7352717098313
+180.4724688984885, 
+0.34747340427657036
 ], 
 "radialSweep": "CLOCKWISE", 
-"radius": 124.52642243868891, 
+"radius": 206.35898071897117, 
 "tipsAlignment": "RIGHT", 
 "type": "phylogram", 
 "width": 306

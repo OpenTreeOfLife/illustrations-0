@@ -1,0 +1,2497 @@
+{
+"elements": [
+{
+"branchRotation": "UNCHANGED", 
+"data": {}, 
+"height": 236.65171264019398, 
+"id": "tree-1", 
+"layout": "TRIANGLE", 
+"metadata": {
+"description": "", 
+"dois": [], 
+"name": "Untitled (tree-1)", 
+"source": {
+"phylesystemStudyID": "", 
+"phylesystemTreeID": "", 
+"type": "BUILT_IN", 
+"value": "./placeholder-tree.json"
+}, 
+"type": "IllustratedTree"
+}, 
+"nodeLabelField": "ottTaxonName", 
+"radialArc": [
+0, 
+350
+], 
+"radialSweep": "CLOCKWISE", 
+"radius": 229.5, 
+"rootX": 135.32352941176475, 
+"rootY": 356.3529411764706, 
+"style": {}, 
+"tipsAlignment": "TOP", 
+"width": 164.47354396650164
+}, 
+{
+"branchRotation": "UNCHANGED", 
+"data": {}, 
+"height": 670.9750943396227, 
+"id": "tree-2", 
+"layout": "TRIANGLE", 
+"metadata": {
+"description": "", 
+"dois": [], 
+"name": "Untitled (tree-2)", 
+"source": {
+"phylesystemStudyID": "", 
+"phylesystemTreeID": "", 
+"type": "URL", 
+"value": "https://api.opentreeoflife.org/phylesystem/v1/study/2380?output_nexml2json=1.0.0&auth_token=ANONYMOUS"
+}, 
+"type": "IllustratedTree"
+}, 
+"nodeLabelField": "ottTaxonName", 
+"radialArc": [
+0, 
+350
+], 
+"radialSweep": "CLOCKWISE", 
+"radius": 229.5, 
+"rootX": 422.5, 
+"rootY": 105.88235294117646, 
+"style": {}, 
+"tipsAlignment": "BOTTOM", 
+"width": 617.8733205374282
+}
+], 
+"metadata": {
+"authors": [
+"Jim Allman"
+], 
+"date_created": "2017-01-07T04:53:21.582Z", 
+"description": "", 
+"dois": [], 
+"name": "Triangle trees", 
+"sha": "", 
+"tags": []
+}, 
+"style": {
+"backgroundColor": "#fdd", 
+"border": "none", 
+"edgeColor": "#777", 
+"edgeThickness": 0.8, 
+"fontFamily": "Times New Roman, Times, serif", 
+"nodeColor": "#339", 
+"nodeShape": "circle", 
+"printSize": {
+"height": 11, 
+"units": "INCHES", 
+"width": 8.5
+}
+}, 
+"styleGuide": {
+"constraints": {
+"backgroundColor": "#fdd", 
+"border": "none", 
+"colorDepths": [
+{
+"name": "Full color", 
+"value": "FULL_COLOR"
+}, 
+{
+"name": "Grayscale", 
+"value": "GRAYSCALE"
+}, 
+{
+"name": "Black and white (no gray)", 
+"value": "BLACK_AND_WHITE"
+}
+], 
+"edgeColor": "#777", 
+"edgeThickness": 0.8, 
+"fontFamilies": [
+{
+"name": "Times New Roman", 
+"value": "Times New Roman, Times, serif"
+}, 
+{
+"name": "Helvetica", 
+"value": "Helvetica, Arial, sans"
+}, 
+{
+"name": "Arial", 
+"value": "Arial, sans"
+}, 
+{
+"name": "Something else"
+}
+], 
+"minimumLineThickness": 2, 
+"minimumTextSize": 12, 
+"nodeColor": "#339", 
+"nodeShape": "circle", 
+"printSizes": [
+{
+"height": 11, 
+"name": "Letter size (portrait)", 
+"units": "INCHES", 
+"width": 8.5
+}, 
+{
+"height": 8.5, 
+"name": "Letter size (landscape)", 
+"units": "INCHES", 
+"width": 11
+}, 
+{
+"height": 5.5, 
+"name": "Quarter-page (portrait)", 
+"units": "INCHES", 
+"width": 4.25
+}, 
+{
+"height": 4.25, 
+"name": "Quarter-page (landscape)", 
+"units": "INCHES", 
+"width": 5.5
+}, 
+{
+"name": "Custom size"
+}
+]
+}, 
+"description": "Style guides are used to suggest and constrain the overall look of your illustration for a particular publication or context. You can try different styles using the <strong>Load styles...</strong> button.", 
+"name": "Default styles", 
+"source": {
+"type": "BUILT_IN", 
+"value": "DEFAULT"
+}, 
+"version": {
+"type": "SEMANTIC", 
+"value": "0.1"
+}
+}, 
+"vegaSpec": {
+"data": [
+{
+"format": {
+"type": "treejson"
+}, 
+"name": "tree-1", 
+"transform": [
+{
+"cachePath": "TreeIllustrator.cache", 
+"flush": false, 
+"key": "ELEMENT-SOURCE-./placeholder-tree.json", 
+"type": "stash"
+}, 
+{
+"branchRotation": "UNCHANGED", 
+"nodeLabelField": "ottTaxonName", 
+"treePosition": 0, 
+"treesCollectionPosition": 0, 
+"type": "nexson"
+}, 
+{
+"branchLengths": "", 
+"height": 236.65171264019398, 
+"layout": "cladogram", 
+"radialArc": [
+0, 
+350
+], 
+"radialSweep": "CLOCKWISE", 
+"radius": 229.5, 
+"tipsAlignment": "TOP", 
+"type": "phylogram", 
+"width": 164.47354396650164
+}
+], 
+"values": {
+"_id": 1, 
+"branch2sha": {
+"master": "f70872638df984c294f6b9a9324b85bfb4604d87"
+}, 
+"commentHTML": "<p>A simple placeholder for use in the Tree Illustrator</p>\n", 
+"data": {
+"nexml": {
+"@about": "#study", 
+"@generator": "Open Tree API", 
+"@id": "study", 
+"@nexml2json": "1.0.0", 
+"@nexmljson": "http://purl.org/opentree/nexson", 
+"@version": "0.9", 
+"@xmlns": {
+"$": "http://www.nexml.org/2009", 
+"nex": "http://www.nexml.org/2009", 
+"ot": "http://purl.org/opentree-terms#", 
+"xhtml": "http://www.w3.org/1999/xhtml/vocab#", 
+"xsd": "http://www.w3.org/2001/XMLSchema#", 
+"xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}, 
+"^ot:agents": {
+"agent": [
+{
+"@description": "Open Tree NexSON validation", 
+"@id": "peyotl-validator", 
+"@name": "api.opentreeoflife.org/validate", 
+"@url": "https://github.com/OpenTreeOfLife/peyotl", 
+"@version": "0.0.4a", 
+"invocation": {
+"commandLine": [], 
+"otherProperty": [
+{
+"name": "pythonVersion", 
+"value": "2.7.3"
+}, 
+{
+"name": "pythonImplementation", 
+"value": "CPython"
+}
+]
+}
+}, 
+{
+"@description": "Web-based interface for submitting, editing, and reviewing studies in the Open Tree of Life project.", 
+"@id": "opentree-curation-webapp", 
+"@name": "OpenTree curation webapp", 
+"@url": "https://github.com/OpenTreeOfLife/opentree", 
+"@version": "0.0.0"
+}
+]
+}, 
+"^ot:annotationEvents": {
+"annotation": [
+{
+"@dateCreated": "2014-11-24T06:47:06.636Z", 
+"@description": "Aids for mapping study OTUs to OTT taxa", 
+"@id": "otu-mapping-hints", 
+"@passedChecks": true, 
+"@preserve": true, 
+"@wasAssociatedWithAgentId": "opentree-curation-webapp", 
+"message": [
+{
+"@code": "OTU_MAPPING_HINTS", 
+"@humanMessageType": "NONE", 
+"@severity": "INFO", 
+"data": {
+"searchContext": {
+"$": "All life"
+}, 
+"substitutions": {
+"substitution": [
+{
+"@active": false, 
+"@valid": true, 
+"new": {
+"$": ""
+}, 
+"old": {
+"$": ""
+}
+}
+]
+}, 
+"useFuzzyMatching": true
+}, 
+"refersTo": {
+"@top": {
+"$": "meta"
+}
+}
+}
+]
+}, 
+{
+"@dateCreated": "2014-11-24T06:47:06.635Z", 
+"@description": "Describes supporting data files for this study", 
+"@id": "supporting-files-metadata", 
+"@passedChecks": true, 
+"@preserve": true, 
+"@wasAssociatedWithAgentId": "opentree-curation-webapp", 
+"message": [
+{
+"@code": "SUPPORTING_FILE_INFO", 
+"@humanMessageType": "NONE", 
+"@severity": "INFO", 
+"data": {
+"@movedToPermanentArchive": false, 
+"files": {
+"file": [
+{
+"@filename": "PASTED.tre", 
+"@size": 14, 
+"@type": "newick", 
+"@url": "/curator/download/supporting_files.doc.9c737f3dc9add903.5041535445442e747265.tre", 
+"description": {
+"$": "Source data for tree 'tree1'"
+}, 
+"sourceForTree": [
+{
+"$": "tree1"
+}
+]
+}
+]
+}
+}, 
+"refersTo": {
+"@top": {
+"$": "meta"
+}
+}
+}
+]
+}, 
+{
+"@description": "Open Tree NexSON validation", 
+"@id": "peyotl-validator-event", 
+"@passedChecks": true, 
+"@preserve": false, 
+"@wasAssociatedWithAgentId": "peyotl-validator", 
+"message": [
+{
+"@code": "UNRECOGNIZED_KEY", 
+"@severity": "WARNING", 
+"data": [
+"^ot:comment"
+], 
+"refersTo": {
+"@idref": "study", 
+"@top": "nexml"
+}
+}, 
+{
+"@code": "UNRECOGNIZED_KEY", 
+"@severity": "WARNING", 
+"data": [
+"^ot:nodeLabelMode", 
+"^ot:nodeLabelTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree1", 
+"@top": "trees", 
+"@treeID": "tree1", 
+"@treesID": "tree1"
+}
+}
+]
+}
+]
+}, 
+"^ot:candidateTreeForSynthesis": [], 
+"^ot:comment": "This is just to provide a simple placeholder tree for the Tree Illustrator.", 
+"^ot:curatorName": [
+"Jim Allman"
+], 
+"^ot:dataDeposit": {
+"@href": "http://www.example.com/"
+}, 
+"^ot:focalCladeOTTTaxonName": "", 
+"^ot:messages": {
+"message": []
+}, 
+"^ot:notIntendedForSynthesis": true, 
+"^ot:studyId": "tt_23", 
+"^ot:studyPublication": {
+"@href": "asdf"
+}, 
+"^ot:studyPublicationReference": "Allman, Jim. Study to create a placeholder tree for the Tree Illustrator application, 1999.", 
+"^ot:studyYear": 1999, 
+"^ot:tag": [], 
+"otus": [
+{
+"@id": "otus1", 
+"otu": [
+{
+"@id": "otu1", 
+"^ot:originalLabel": "A", 
+"^ot:ottId": 36826, 
+"^ot:ottTaxonName": "Placeholder A"
+}, 
+{
+"@id": "otu2", 
+"^ot:originalLabel": "B", 
+"^ot:ottId": 5248790, 
+"^ot:ottTaxonName": "Placeholder B"
+}, 
+{
+"@id": "otu3", 
+"^ot:originalLabel": "C", 
+"^ot:ottId": 3047075, 
+"^ot:ottTaxonName": "Placeholder C"
+}, 
+{
+"@id": "otu4", 
+"^ot:originalLabel": "D", 
+"^ot:ottId": 5260612, 
+"^ot:ottTaxonName": "Placeholder D"
+}
+]
+}
+], 
+"trees": [
+{
+"@id": "trees1", 
+"@otus": "otus1", 
+"tree": [
+{
+"@id": "tree1", 
+"@label": "Placeholder tree", 
+"@xsi:type": "nex:FloatTree", 
+"^ot:branchLengthDescription": "", 
+"^ot:branchLengthMode": "ot:undefined", 
+"^ot:branchLengthTimeUnit": "Myr", 
+"^ot:curatedType": "", 
+"^ot:inGroupClade": "", 
+"^ot:nodeLabelMode": "", 
+"^ot:nodeLabelTimeUnit": "", 
+"^ot:outGroupEdge": "", 
+"^ot:specifiedRoot": "", 
+"^ot:tag": [], 
+"^ot:unrootedTree": true, 
+"edge": [
+{
+"@id": "edge1", 
+"@source": "node1", 
+"@target": "node2"
+}, 
+{
+"@id": "edge2", 
+"@source": "node1", 
+"@target": "node3"
+}, 
+{
+"@id": "edge3", 
+"@source": "node3", 
+"@target": "node4"
+}, 
+{
+"@id": "edge4", 
+"@source": "node3", 
+"@target": "node5"
+}, 
+{
+"@id": "edge5", 
+"@source": "node5", 
+"@target": "node6"
+}, 
+{
+"@id": "edge6", 
+"@source": "node5", 
+"@target": "node7"
+}
+], 
+"node": [
+{
+"@id": "node1", 
+"@root": true
+}, 
+{
+"@id": "node2", 
+"@otu": "otu1", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node3"
+}, 
+{
+"@id": "node4", 
+"@otu": "otu2", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node5"
+}, 
+{
+"@id": "node6", 
+"@otu": "otu3", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node7", 
+"@otu": "otu4", 
+"^ot:isLeaf": true
+}
+]
+}
+]
+}
+]
+}
+}, 
+"duplicateStudyIDs": [], 
+"sha": "f70872638df984c294f6b9a9324b85bfb4604d87", 
+"versionHistory": [
+{
+"author_email": "jim@ibang.com", 
+"author_name": "Jim Allman", 
+"date": "Mon, 24 Nov 2014 06:59:15 +0000", 
+"date_ISO_8601": "2014-11-24 06:59:15 +0000", 
+"id": "f70872638df984c294f6b9a9324b85bfb4604d87", 
+"message_body": "(Update Study #tt_23 via OpenTree API)", 
+"message_subject": "Placeholder tree", 
+"relative_date": "3 minutes ago"
+}, 
+{
+"author_email": "jim@ibang.com", 
+"author_name": "Jim Allman", 
+"date": "Mon, 24 Nov 2014 06:51:25 +0000", 
+"date_ISO_8601": "2014-11-24 06:51:25 +0000", 
+"id": "53f7a54d50558233f342d57b8c38980552511722", 
+"message_body": "(Update Study #tt_23 via OpenTree API)", 
+"message_subject": "Placeholder tree", 
+"relative_date": "11 minutes ago"
+}, 
+{
+"author_email": "jim@ibang.com", 
+"author_name": "Jim Allman", 
+"date": "Mon, 24 Nov 2014 06:47:04 +0000", 
+"date_ISO_8601": "2014-11-24 06:47:04 +0000", 
+"id": "05dfd42aa791105b91bcbee75b56e2810be651cc", 
+"message_subject": "Update Study #tt_23 via OpenTree API", 
+"relative_date": "15 minutes ago"
+}, 
+{
+"author_email": "ANONYMOUS", 
+"author_name": "ANONYMOUS", 
+"date": "Fri, 31 Oct 2014 04:42:20 +0000", 
+"date_ISO_8601": "2014-10-31 04:42:20 +0000", 
+"id": "01aeac09b2d2adcb863afbdc6c52da4ba78078c6", 
+"message_subject": "Delete Study #tt_23 via OpenTree API", 
+"relative_date": "3 weeks ago"
+}, 
+{
+"author_email": "ANONYMOUS", 
+"author_name": "ANONYMOUS", 
+"date": "Fri, 31 Oct 2014 04:41:41 +0000", 
+"date_ISO_8601": "2014-10-31 04:41:41 +0000", 
+"id": "56b39bee84c7579d214ce98744af7bdcc540916a", 
+"message_subject": "Update Study #tt_23 via OpenTree API", 
+"relative_date": "3 weeks ago"
+}
+]
+}
+}, 
+{
+"format": {
+"type": "treejson"
+}, 
+"name": "tree-2", 
+"transform": [
+{
+"cachePath": "TreeIllustrator.cache", 
+"flush": false, 
+"key": "ELEMENT-SOURCE-https://api.opentreeoflife.org/phylesystem/v1/study/2380?output_nexml2json=1.0.0&auth_token=ANONYMOUS", 
+"type": "stash"
+}, 
+{
+"branchRotation": "UNCHANGED", 
+"nodeLabelField": "ottTaxonName", 
+"treePosition": 0, 
+"treesCollectionPosition": 0, 
+"type": "nexson"
+}, 
+{
+"branchLengths": "", 
+"height": 670.9750943396227, 
+"layout": "cladogram", 
+"radialArc": [
+0, 
+350
+], 
+"radialSweep": "CLOCKWISE", 
+"radius": 229.5, 
+"tipsAlignment": "BOTTOM", 
+"type": "phylogram", 
+"width": 617.8733205374282
+}
+], 
+"values": {
+"_id": 489, 
+"branch2sha": {
+"master": "7f3485066fa2724666faf952db85d3cebd7ab305"
+}, 
+"commentHTML": "", 
+"data": {
+"nexml": {
+"@generator": "Phylografter nexml-json exporter", 
+"@id": "study", 
+"@nexml2json": "1.0.0", 
+"@nexmljson": "http://purl.org/opentree/nexson", 
+"@version": "0.9", 
+"@xmlns": {
+"$": "http://www.nexml.org/2009", 
+"nex": "http://www.nexml.org/2009", 
+"ot": "http://purl.org/opentree-terms#", 
+"xsd": "http://www.w3.org/2001/XMLSchema#", 
+"xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}, 
+"^ot:agents": {
+"agent": [
+{
+"@description": "validator of NexSON constraints as well as constraints that would allow a study to be imported into the Open Tree of Life's phylogenetic synthesis tools", 
+"@id": "peyotl-validator", 
+"@name": "validate_ot_nexson.py", 
+"@url": "https://github.com/OpenTreeOfLife/peyotl", 
+"@version": "0.0.4a", 
+"invocation": {
+"commandLine": [
+"--embed", 
+"--agent-only"
+], 
+"otherProperty": [
+{
+"name": "pythonVersion", 
+"value": "2.7.5+"
+}, 
+{
+"name": "pythonImplementation", 
+"value": "CPython"
+}
+]
+}
+}
+]
+}, 
+"^ot:annotationEvents": {
+"annotation": [
+{
+"@description": "Open Tree NexSON validation", 
+"@id": "peyotl-validator-event", 
+"@passedChecks": true, 
+"@preserve": false, 
+"@wasAssociatedWithAgentId": "peyotl-validator", 
+"message": [
+{
+"@code": "MISSING_OPTIONAL_KEY", 
+"@severity": "WARNING", 
+"data": [
+"^ot:ottId"
+], 
+"refersTo": {
+"@idref": [
+"otu336754", 
+"otu336755", 
+"otu336773"
+], 
+"@otuID": [
+"otu336754", 
+"otu336755", 
+"otu336773"
+], 
+"@otusID": "otus2380", 
+"@top": "otus"
+}
+}, 
+{
+"@code": "MULTIPLE_TIPS_MAPPED_TO_OTT_ID", 
+"@severity": "WARNING", 
+"data": [
+"otu336754", 
+"otu336755", 
+"otu336773"
+], 
+"refersTo": {
+"@idref": "otus2380", 
+"@otusID": "otus2380", 
+"@top": "otus"
+}
+}
+]
+}
+]
+}, 
+"^ot:candidateTreeForSynthesis": [], 
+"^ot:curatorName": "Romina Gazis", 
+"^ot:dataDeposit": {
+"@href": "http://purl.org/phylo/treebase/phylows/study/TB2:S12780"
+}, 
+"^ot:focalClade": 509052, 
+"^ot:focalCladeOTTTaxonName": "Chaenothecopsis", 
+"^ot:messages": {
+"message": []
+}, 
+"^ot:studyId": "pg_2380", 
+"^ot:studyPublication": {
+"@href": "http://dx.doi.org/10.1007/s13225-012-0210-9"
+}, 
+"^ot:studyPublicationReference": "Tuovila, Hanna, Alexander R. Schmidt, Christina Beimforde, Heinrich D\u00f6rfelt, Heinrich Grabenhorst, and Jouko Rikkinen. \"Stuck in time\u2013a new Chaenothecopsis species with proliferating ascomata from Cunninghamia resin and its fossil ancestors in European amber.\" Fungal Diversity 58, no. 1 (2013): 199-213.", 
+"^ot:studyYear": 2013, 
+"^ot:tag": [
+"BI", 
+"ITS", 
+"LSU"
+], 
+"otus": [
+{
+"@id": "otus2380", 
+"otu": [
+{
+"@id": "otu336753", 
+"^ot:originalLabel": "Phaeocalicium polyporaeum", 
+"^ot:ottId": 5310912, 
+"^ot:ottTaxonName": "Phaeocalicium polyporaeum", 
+"^ot:treebaseOTUId": "Tl1035901"
+}, 
+{
+"@id": "otu336754", 
+"^ot:originalLabel": "Chaenothecopsis pallida", 
+"^ot:treebaseOTUId": "Tl801994"
+}, 
+{
+"@id": "otu336755", 
+"^ot:originalLabel": "Chaenothecopsis hunanensis", 
+"^ot:treebaseOTUId": "Tl801995"
+}, 
+{
+"@id": "otu336756", 
+"^ot:originalLabel": "Chaenothecopsis sitchensis", 
+"^ot:ottId": 900672, 
+"^ot:ottTaxonName": "Chaenothecopsis sitchensis", 
+"^ot:treebaseOTUId": "Tl801996"
+}, 
+{
+"@id": "otu336757", 
+"^ot:originalLabel": "Stenocybe pullatula", 
+"^ot:ottId": 344373, 
+"^ot:ottTaxonName": "Stenocybe pullatula", 
+"^ot:treebaseOTUId": "Tl801997"
+}, 
+{
+"@id": "otu336758", 
+"^ot:originalLabel": "Chaenothecopsis nigripunctata", 
+"^ot:ottId": 900674, 
+"^ot:ottTaxonName": "Chaenothecopsis nigripunctata", 
+"^ot:treebaseOTUId": "Tl801998"
+}, 
+{
+"@id": "otu336759", 
+"^ot:originalLabel": "Chaenothecopsis consociata", 
+"^ot:ottId": 288606, 
+"^ot:ottTaxonName": "Chaenothecopsis consociata", 
+"^ot:treebaseOTUId": "Tl801999"
+}, 
+{
+"@id": "otu336760", 
+"^ot:originalLabel": "Chaenothecopsis tsugae", 
+"^ot:ottId": 900680, 
+"^ot:ottTaxonName": "Chaenothecopsis tsugae", 
+"^ot:treebaseOTUId": "Tl802000"
+}, 
+{
+"@id": "otu336761", 
+"^ot:originalLabel": "Sphinctrina leucopoda", 
+"^ot:ottId": 237953, 
+"^ot:ottTaxonName": "Sphinctrina leucopoda", 
+"^ot:treebaseOTUId": "Tl802001"
+}, 
+{
+"@id": "otu336762", 
+"^ot:originalLabel": "Sphinctrina turbinata", 
+"^ot:ottId": 344366, 
+"^ot:ottTaxonName": "Sphinctrina turbinata", 
+"^ot:treebaseOTUId": "Tl802002"
+}, 
+{
+"@id": "otu336763", 
+"^ot:originalLabel": "Chaenothecopsis proliferatus", 
+"^ot:ottId": 1052809, 
+"^ot:ottTaxonName": "Chaenothecopsis proliferatus", 
+"^ot:treebaseOTUId": "Tl802003"
+}, 
+{
+"@id": "otu336764", 
+"^ot:originalLabel": "Mycocalicium sequoiae", 
+"^ot:ottId": 254323, 
+"^ot:ottTaxonName": "Mycocalicium sequoiae", 
+"^ot:treebaseOTUId": "Tl802004"
+}, 
+{
+"@id": "otu336765", 
+"^ot:originalLabel": "Phaeocalicium populneum", 
+"^ot:ottId": 237950, 
+"^ot:ottTaxonName": "Phaeocalicium populneum", 
+"^ot:treebaseOTUId": "Tl802005"
+}, 
+{
+"@id": "otu336766", 
+"^ot:originalLabel": "Chaenothecopsis golubkovae", 
+"^ot:ottId": 812434, 
+"^ot:ottTaxonName": "Chaenothecopsis golubkovae", 
+"^ot:treebaseOTUId": "Tl802006"
+}, 
+{
+"@id": "otu336767", 
+"^ot:originalLabel": "Chaenothecopsis pusiola", 
+"^ot:ottId": 812440, 
+"^ot:ottTaxonName": "Chaenothecopsis pusiola", 
+"^ot:treebaseOTUId": "Tl802007"
+}, 
+{
+"@id": "otu336768", 
+"^ot:originalLabel": "Pyrgillus javanicus", 
+"^ot:ottId": 67600, 
+"^ot:ottTaxonName": "Pyrgillus javanicus", 
+"^ot:treebaseOTUId": "Tl802008"
+}, 
+{
+"@id": "otu336769", 
+"^ot:originalLabel": "Chaenothecopsis montana", 
+"^ot:ottId": 900666, 
+"^ot:ottTaxonName": "Chaenothecopsis montana", 
+"^ot:treebaseOTUId": "Tl802009"
+}, 
+{
+"@id": "otu336770", 
+"^ot:originalLabel": "Caliciopsis sp", 
+"^ot:ottId": 123363, 
+"^ot:ottTaxonName": "Caliciopsis", 
+"^ot:treebaseOTUId": "Tl802010"
+}, 
+{
+"@id": "otu336771", 
+"^ot:originalLabel": "Chaenothecopsis dolichocephala", 
+"^ot:ottId": 812435, 
+"^ot:ottTaxonName": "Chaenothecopsis dolichocephala", 
+"^ot:treebaseOTUId": "Tl802012"
+}, 
+{
+"@id": "otu336772", 
+"^ot:originalLabel": "Chaenothecopsis diabolica", 
+"^ot:ottId": 900668, 
+"^ot:ottTaxonName": "Chaenothecopsis diabolica", 
+"^ot:treebaseOTUId": "Tl802013"
+}, 
+{
+"@id": "otu336773", 
+"^ot:originalLabel": "Chaenothecopsis resinophila", 
+"^ot:treebaseOTUId": "Tl802014"
+}, 
+{
+"@id": "otu336774", 
+"^ot:originalLabel": "Chaenothecopsis vainioana", 
+"^ot:ottId": 900676, 
+"^ot:ottTaxonName": "Chaenothecopsis vainioana", 
+"^ot:treebaseOTUId": "Tl802015"
+}, 
+{
+"@id": "otu336775", 
+"^ot:originalLabel": "Chaenothecopsis sp.", 
+"^ot:ottId": 509052, 
+"^ot:ottTaxonName": "Chaenothecopsis", 
+"^ot:treebaseOTUId": "Tl802016"
+}, 
+{
+"@id": "otu336776", 
+"^ot:originalLabel": "Chaenothecopsis khayensis", 
+"^ot:ottId": 334337, 
+"^ot:ottTaxonName": "Chaenothecopsis khayensis", 
+"^ot:treebaseOTUId": "Tl802017"
+}, 
+{
+"@id": "otu336777", 
+"^ot:originalLabel": "Mycocalicium subtile", 
+"^ot:ottId": 697270, 
+"^ot:ottTaxonName": "Mycocalicium subtile", 
+"^ot:treebaseOTUId": "Tl802018"
+}, 
+{
+"@id": "otu336778", 
+"^ot:originalLabel": "Chaenothecopsis viridireagens", 
+"^ot:ottId": 812442, 
+"^ot:ottTaxonName": "Chaenothecopsis viridireagens", 
+"^ot:treebaseOTUId": "Tl802019"
+}, 
+{
+"@id": "otu336779", 
+"^ot:originalLabel": "Chaenothecopsis debilis", 
+"^ot:ottId": 288605, 
+"^ot:ottTaxonName": "Chaenothecopsis debilis", 
+"^ot:treebaseOTUId": "Tl802020"
+}, 
+{
+"@id": "otu336780", 
+"^ot:originalLabel": "Chaenothecopsis fennica", 
+"^ot:ottId": 812433, 
+"^ot:ottTaxonName": "Chaenothecopsis fennica", 
+"^ot:treebaseOTUId": "Tl802021"
+}
+]
+}
+], 
+"trees": [
+{
+"@id": "trees2380", 
+"@otus": "otus2380", 
+"tree": [
+{
+"@id": "tree4999", 
+"@xsi:type": "nex:FloatTree", 
+"^ot:branchLengthDescription": "", 
+"^ot:branchLengthMode": "", 
+"^ot:branchLengthTimeUnit": "", 
+"^ot:curatedType": "BI, ITS + LSU (partial)", 
+"^ot:inGroupClade": "node867088", 
+"^ot:outGroupEdge": "", 
+"^ot:specifiedRoot": "", 
+"^ot:tag": [
+"BI", 
+"ITS", 
+"LSU", 
+"Choose me"
+], 
+"edge": [
+{
+"@id": "edge867086", 
+"@length": 0.419658, 
+"@source": "node867085", 
+"@target": "node867086"
+}, 
+{
+"@id": "edge867087", 
+"@length": 0.185026, 
+"@source": "node867085", 
+"@target": "node867087"
+}, 
+{
+"@id": "edge867088", 
+"@length": 0.088211, 
+"@source": "node867085", 
+"@target": "node867088"
+}, 
+{
+"@id": "edge867089", 
+"@length": 0.051921, 
+"@source": "node867088", 
+"@target": "node867089"
+}, 
+{
+"@id": "edge867090", 
+"@length": 0.062284, 
+"@source": "node867089", 
+"@target": "node867090"
+}, 
+{
+"@id": "edge867091", 
+"@length": 0.026963, 
+"@source": "node867090", 
+"@target": "node867091"
+}, 
+{
+"@id": "edge867092", 
+"@length": 0.052239, 
+"@source": "node867091", 
+"@target": "node867092"
+}, 
+{
+"@id": "edge867093", 
+"@length": 0.061231, 
+"@source": "node867091", 
+"@target": "node867093"
+}, 
+{
+"@id": "edge867094", 
+"@length": 0.069042, 
+"@source": "node867090", 
+"@target": "node867094"
+}, 
+{
+"@id": "edge867095", 
+"@length": 0.045244, 
+"@source": "node867089", 
+"@target": "node867095"
+}, 
+{
+"@id": "edge867096", 
+"@length": 0.05917, 
+"@source": "node867095", 
+"@target": "node867096"
+}, 
+{
+"@id": "edge867097", 
+"@length": 0.077904, 
+"@source": "node867096", 
+"@target": "node867097"
+}, 
+{
+"@id": "edge867098", 
+"@length": 0.046543, 
+"@source": "node867096", 
+"@target": "node867098"
+}, 
+{
+"@id": "edge867099", 
+"@length": 0.10056, 
+"@source": "node867095", 
+"@target": "node867099"
+}, 
+{
+"@id": "edge867100", 
+"@length": 0.01784, 
+"@source": "node867088", 
+"@target": "node867100"
+}, 
+{
+"@id": "edge867101", 
+"@length": 0.039418, 
+"@source": "node867100", 
+"@target": "node867101"
+}, 
+{
+"@id": "edge867102", 
+"@length": 0.012068, 
+"@source": "node867101", 
+"@target": "node867102"
+}, 
+{
+"@id": "edge867103", 
+"@length": 0.019764, 
+"@source": "node867102", 
+"@target": "node867103"
+}, 
+{
+"@id": "edge867104", 
+"@length": 0.016775, 
+"@source": "node867103", 
+"@target": "node867104"
+}, 
+{
+"@id": "edge867105", 
+"@length": 0.003551, 
+"@source": "node867104", 
+"@target": "node867105"
+}, 
+{
+"@id": "edge867106", 
+"@length": 0.00591, 
+"@source": "node867104", 
+"@target": "node867106"
+}, 
+{
+"@id": "edge867107", 
+"@length": 0.076776, 
+"@source": "node867103", 
+"@target": "node867107"
+}, 
+{
+"@id": "edge867108", 
+"@length": 0.012508, 
+"@source": "node867102", 
+"@target": "node867108"
+}, 
+{
+"@id": "edge867109", 
+"@length": 0.04149, 
+"@source": "node867108", 
+"@target": "node867109"
+}, 
+{
+"@id": "edge867110", 
+"@length": 0.035626, 
+"@source": "node867109", 
+"@target": "node867110"
+}, 
+{
+"@id": "edge867111", 
+"@length": 0.022145, 
+"@source": "node867110", 
+"@target": "node867111"
+}, 
+{
+"@id": "edge867112", 
+"@length": 0.039783, 
+"@source": "node867110", 
+"@target": "node867112"
+}, 
+{
+"@id": "edge867113", 
+"@length": 0.090983, 
+"@source": "node867109", 
+"@target": "node867113"
+}, 
+{
+"@id": "edge867114", 
+"@length": 0.082765, 
+"@source": "node867108", 
+"@target": "node867114"
+}, 
+{
+"@id": "edge867115", 
+"@length": 0.239684, 
+"@source": "node867108", 
+"@target": "node867115"
+}, 
+{
+"@id": "edge867116", 
+"@length": 0.417195, 
+"@source": "node867115", 
+"@target": "node867116"
+}, 
+{
+"@id": "edge867117", 
+"@length": 0.320745, 
+"@source": "node867115", 
+"@target": "node867117"
+}, 
+{
+"@id": "edge867118", 
+"@length": 0.058506, 
+"@source": "node867101", 
+"@target": "node867118"
+}, 
+{
+"@id": "edge867119", 
+"@length": 0.026723, 
+"@source": "node867100", 
+"@target": "node867119"
+}, 
+{
+"@id": "edge867120", 
+"@length": 0.122103, 
+"@source": "node867119", 
+"@target": "node867120"
+}, 
+{
+"@id": "edge867121", 
+"@length": 0.023615, 
+"@source": "node867119", 
+"@target": "node867121"
+}, 
+{
+"@id": "edge867122", 
+"@length": 0.019846, 
+"@source": "node867121", 
+"@target": "node867122"
+}, 
+{
+"@id": "edge867123", 
+"@length": 0.047684, 
+"@source": "node867121", 
+"@target": "node867123"
+}, 
+{
+"@id": "edge867124", 
+"@length": 0.021378, 
+"@source": "node867088", 
+"@target": "node867124"
+}, 
+{
+"@id": "edge867125", 
+"@length": 0.100393, 
+"@source": "node867124", 
+"@target": "node867125"
+}, 
+{
+"@id": "edge867126", 
+"@length": 0.070748, 
+"@source": "node867124", 
+"@target": "node867126"
+}, 
+{
+"@id": "edge867127", 
+"@length": 0.050351, 
+"@source": "node867088", 
+"@target": "node867127"
+}, 
+{
+"@id": "edge867128", 
+"@length": 0.074378, 
+"@source": "node867127", 
+"@target": "node867128"
+}, 
+{
+"@id": "edge867129", 
+"@length": 0.045658, 
+"@source": "node867127", 
+"@target": "node867129"
+}, 
+{
+"@id": "edge867130", 
+"@length": 0.014625, 
+"@source": "node867088", 
+"@target": "node867130"
+}, 
+{
+"@id": "edge867131", 
+"@length": 0.030245, 
+"@source": "node867130", 
+"@target": "node867131"
+}, 
+{
+"@id": "edge867132", 
+"@length": 0.075458, 
+"@source": "node867131", 
+"@target": "node867132"
+}, 
+{
+"@id": "edge867133", 
+"@length": 0.038063, 
+"@source": "node867131", 
+"@target": "node867133"
+}, 
+{
+"@id": "edge867134", 
+"@length": 0.075831, 
+"@source": "node867130", 
+"@target": "node867134"
+}
+], 
+"node": [
+{
+"@id": "node867085", 
+"@root": true
+}, 
+{
+"@id": "node867086", 
+"@otu": "otu336768", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867087", 
+"@otu": "otu336770", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867088"
+}, 
+{
+"@id": "node867089"
+}, 
+{
+"@id": "node867090"
+}, 
+{
+"@id": "node867091"
+}, 
+{
+"@id": "node867092", 
+"@otu": "otu336776", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867093", 
+"@otu": "otu336773", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867094", 
+"@otu": "otu336754", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867095"
+}, 
+{
+"@id": "node867096"
+}, 
+{
+"@id": "node867097", 
+"@otu": "otu336762", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867098", 
+"@otu": "otu336761", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867099", 
+"@otu": "otu336775", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867100"
+}, 
+{
+"@id": "node867101"
+}, 
+{
+"@id": "node867102"
+}, 
+{
+"@id": "node867103"
+}, 
+{
+"@id": "node867104"
+}, 
+{
+"@id": "node867105", 
+"@otu": "otu336756", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867106", 
+"@otu": "otu336771", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867107", 
+"@otu": "otu336780", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867108"
+}, 
+{
+"@id": "node867109"
+}, 
+{
+"@id": "node867110"
+}, 
+{
+"@id": "node867111", 
+"@otu": "otu336759", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867112", 
+"@otu": "otu336778", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867113", 
+"@otu": "otu336767", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867114", 
+"@otu": "otu336774", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867115"
+}, 
+{
+"@id": "node867116", 
+"@otu": "otu336763", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867117", 
+"@otu": "otu336755", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867118", 
+"@otu": "otu336766", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867119"
+}, 
+{
+"@id": "node867120", 
+"@otu": "otu336758", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867121"
+}, 
+{
+"@id": "node867122", 
+"@otu": "otu336764", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867123", 
+"@otu": "otu336769", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867124"
+}, 
+{
+"@id": "node867125", 
+"@otu": "otu336760", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867126", 
+"@otu": "otu336772", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867127"
+}, 
+{
+"@id": "node867128", 
+"@otu": "otu336753", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867129", 
+"@otu": "otu336779", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867130"
+}, 
+{
+"@id": "node867131"
+}, 
+{
+"@id": "node867132", 
+"@otu": "otu336765", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867133", 
+"@otu": "otu336757", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867134", 
+"@otu": "otu336777", 
+"^ot:isLeaf": true
+}
+]
+}, 
+{
+"@id": "tree5000", 
+"@xsi:type": "nex:FloatTree", 
+"^ot:branchLengthDescription": "", 
+"^ot:branchLengthMode": "", 
+"^ot:branchLengthTimeUnit": "", 
+"^ot:curatedType": "BI, ITS + LSU (partial)", 
+"^ot:inGroupClade": "node867138", 
+"^ot:outGroupEdge": "", 
+"^ot:specifiedRoot": "", 
+"^ot:tag": [], 
+"edge": [
+{
+"@id": "edge867136", 
+"@length": 0.419658, 
+"@source": "node867135", 
+"@target": "node867136"
+}, 
+{
+"@id": "edge867137", 
+"@length": 0.185026, 
+"@source": "node867135", 
+"@target": "node867137"
+}, 
+{
+"@id": "edge867138", 
+"@length": 0.088211, 
+"@source": "node867135", 
+"@target": "node867138"
+}, 
+{
+"@id": "edge867139", 
+"@length": 0.051921, 
+"@source": "node867138", 
+"@target": "node867139"
+}, 
+{
+"@id": "edge867140", 
+"@length": 0.062284, 
+"@source": "node867139", 
+"@target": "node867140"
+}, 
+{
+"@id": "edge867141", 
+"@length": 0.026963, 
+"@source": "node867140", 
+"@target": "node867141"
+}, 
+{
+"@id": "edge867142", 
+"@length": 0.052239, 
+"@source": "node867141", 
+"@target": "node867142"
+}, 
+{
+"@id": "edge867143", 
+"@length": 0.061231, 
+"@source": "node867141", 
+"@target": "node867143"
+}, 
+{
+"@id": "edge867144", 
+"@length": 0.069042, 
+"@source": "node867140", 
+"@target": "node867144"
+}, 
+{
+"@id": "edge867145", 
+"@length": 0.045244, 
+"@source": "node867139", 
+"@target": "node867145"
+}, 
+{
+"@id": "edge867146", 
+"@length": 0.05917, 
+"@source": "node867145", 
+"@target": "node867146"
+}, 
+{
+"@id": "edge867147", 
+"@length": 0.077904, 
+"@source": "node867146", 
+"@target": "node867147"
+}, 
+{
+"@id": "edge867148", 
+"@length": 0.046543, 
+"@source": "node867146", 
+"@target": "node867148"
+}, 
+{
+"@id": "edge867149", 
+"@length": 0.10056, 
+"@source": "node867145", 
+"@target": "node867149"
+}, 
+{
+"@id": "edge867150", 
+"@length": 0.01784, 
+"@source": "node867138", 
+"@target": "node867150"
+}, 
+{
+"@id": "edge867151", 
+"@length": 0.039418, 
+"@source": "node867150", 
+"@target": "node867151"
+}, 
+{
+"@id": "edge867152", 
+"@length": 0.012068, 
+"@source": "node867151", 
+"@target": "node867152"
+}, 
+{
+"@id": "edge867153", 
+"@length": 0.019764, 
+"@source": "node867152", 
+"@target": "node867153"
+}, 
+{
+"@id": "edge867154", 
+"@length": 0.016775, 
+"@source": "node867153", 
+"@target": "node867154"
+}, 
+{
+"@id": "edge867155", 
+"@length": 0.003551, 
+"@source": "node867154", 
+"@target": "node867155"
+}, 
+{
+"@id": "edge867156", 
+"@length": 0.00591, 
+"@source": "node867154", 
+"@target": "node867156"
+}, 
+{
+"@id": "edge867157", 
+"@length": 0.076776, 
+"@source": "node867153", 
+"@target": "node867157"
+}, 
+{
+"@id": "edge867158", 
+"@length": 0.012508, 
+"@source": "node867152", 
+"@target": "node867158"
+}, 
+{
+"@id": "edge867159", 
+"@length": 0.04149, 
+"@source": "node867158", 
+"@target": "node867159"
+}, 
+{
+"@id": "edge867160", 
+"@length": 0.035626, 
+"@source": "node867159", 
+"@target": "node867160"
+}, 
+{
+"@id": "edge867161", 
+"@length": 0.022145, 
+"@source": "node867160", 
+"@target": "node867161"
+}, 
+{
+"@id": "edge867162", 
+"@length": 0.039783, 
+"@source": "node867160", 
+"@target": "node867162"
+}, 
+{
+"@id": "edge867163", 
+"@length": 0.090983, 
+"@source": "node867159", 
+"@target": "node867163"
+}, 
+{
+"@id": "edge867164", 
+"@length": 0.082765, 
+"@source": "node867158", 
+"@target": "node867164"
+}, 
+{
+"@id": "edge867165", 
+"@length": 0.239684, 
+"@source": "node867158", 
+"@target": "node867165"
+}, 
+{
+"@id": "edge867166", 
+"@length": 0.417195, 
+"@source": "node867165", 
+"@target": "node867166"
+}, 
+{
+"@id": "edge867167", 
+"@length": 0.320745, 
+"@source": "node867165", 
+"@target": "node867167"
+}, 
+{
+"@id": "edge867168", 
+"@length": 0.058506, 
+"@source": "node867151", 
+"@target": "node867168"
+}, 
+{
+"@id": "edge867169", 
+"@length": 0.026723, 
+"@source": "node867150", 
+"@target": "node867169"
+}, 
+{
+"@id": "edge867170", 
+"@length": 0.122103, 
+"@source": "node867169", 
+"@target": "node867170"
+}, 
+{
+"@id": "edge867171", 
+"@length": 0.023615, 
+"@source": "node867169", 
+"@target": "node867171"
+}, 
+{
+"@id": "edge867172", 
+"@length": 0.019846, 
+"@source": "node867171", 
+"@target": "node867172"
+}, 
+{
+"@id": "edge867173", 
+"@length": 0.047684, 
+"@source": "node867171", 
+"@target": "node867173"
+}, 
+{
+"@id": "edge867174", 
+"@length": 0.021378, 
+"@source": "node867138", 
+"@target": "node867174"
+}, 
+{
+"@id": "edge867175", 
+"@length": 0.100393, 
+"@source": "node867174", 
+"@target": "node867175"
+}, 
+{
+"@id": "edge867176", 
+"@length": 0.070748, 
+"@source": "node867174", 
+"@target": "node867176"
+}, 
+{
+"@id": "edge867177", 
+"@length": 0.050351, 
+"@source": "node867138", 
+"@target": "node867177"
+}, 
+{
+"@id": "edge867178", 
+"@length": 0.074378, 
+"@source": "node867177", 
+"@target": "node867178"
+}, 
+{
+"@id": "edge867179", 
+"@length": 0.045658, 
+"@source": "node867177", 
+"@target": "node867179"
+}, 
+{
+"@id": "edge867180", 
+"@length": 0.014625, 
+"@source": "node867138", 
+"@target": "node867180"
+}, 
+{
+"@id": "edge867181", 
+"@length": 0.030245, 
+"@source": "node867180", 
+"@target": "node867181"
+}, 
+{
+"@id": "edge867182", 
+"@length": 0.075458, 
+"@source": "node867181", 
+"@target": "node867182"
+}, 
+{
+"@id": "edge867183", 
+"@length": 0.038063, 
+"@source": "node867181", 
+"@target": "node867183"
+}, 
+{
+"@id": "edge867184", 
+"@length": 0.075831, 
+"@source": "node867180", 
+"@target": "node867184"
+}
+], 
+"node": [
+{
+"@id": "node867135", 
+"@root": true
+}, 
+{
+"@id": "node867136", 
+"@otu": "otu336768", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867137", 
+"@otu": "otu336770", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867138"
+}, 
+{
+"@id": "node867139"
+}, 
+{
+"@id": "node867140"
+}, 
+{
+"@id": "node867141"
+}, 
+{
+"@id": "node867142", 
+"@otu": "otu336776", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867143", 
+"@otu": "otu336773", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867144", 
+"@otu": "otu336754", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867145"
+}, 
+{
+"@id": "node867146"
+}, 
+{
+"@id": "node867147", 
+"@otu": "otu336762", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867148", 
+"@otu": "otu336761", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867149", 
+"@otu": "otu336775", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867150"
+}, 
+{
+"@id": "node867151"
+}, 
+{
+"@id": "node867152"
+}, 
+{
+"@id": "node867153"
+}, 
+{
+"@id": "node867154"
+}, 
+{
+"@id": "node867155", 
+"@otu": "otu336756", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867156", 
+"@otu": "otu336771", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867157", 
+"@otu": "otu336780", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867158"
+}, 
+{
+"@id": "node867159"
+}, 
+{
+"@id": "node867160"
+}, 
+{
+"@id": "node867161", 
+"@otu": "otu336759", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867162", 
+"@otu": "otu336778", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867163", 
+"@otu": "otu336767", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867164", 
+"@otu": "otu336774", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867165"
+}, 
+{
+"@id": "node867166", 
+"@otu": "otu336763", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867167", 
+"@otu": "otu336755", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867168", 
+"@otu": "otu336766", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867169"
+}, 
+{
+"@id": "node867170", 
+"@otu": "otu336758", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867171"
+}, 
+{
+"@id": "node867172", 
+"@otu": "otu336764", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867173", 
+"@otu": "otu336769", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867174"
+}, 
+{
+"@id": "node867175", 
+"@otu": "otu336760", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867176", 
+"@otu": "otu336772", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867177"
+}, 
+{
+"@id": "node867178", 
+"@otu": "otu336753", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867179", 
+"@otu": "otu336779", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867180"
+}, 
+{
+"@id": "node867181"
+}, 
+{
+"@id": "node867182", 
+"@otu": "otu336765", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867183", 
+"@otu": "otu336757", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node867184", 
+"@otu": "otu336777", 
+"^ot:isLeaf": true
+}
+]
+}
+]
+}
+]
+}
+}, 
+"duplicateStudyIDs": [
+"pg_2380"
+], 
+"sha": "7f3485066fa2724666faf952db85d3cebd7ab305", 
+"shardName": "phylesystem-1", 
+"versionHistory": [
+{
+"author_email": "mtholder@gmail.com", 
+"author_name": "Mark T. Holder", 
+"date": "Wed, 11 Jun 2014 22:18:34 -0500", 
+"date_ISO_8601": "2014-06-11 22:18:34 -0500", 
+"id": "d33fb39501605772a074dffc82affa5344ea9a94", 
+"message_subject": "corrected study ids", 
+"relative_date": "2 years, 7 months ago"
+}, 
+{
+"author_email": "mtholder@gmail.com", 
+"author_name": "Mark T. Holder", 
+"date": "Tue, 29 Apr 2014 20:05:19 -0500", 
+"date_ISO_8601": "2014-04-29 20:05:19 -0500", 
+"id": "593d6fbab385716dc0a12f3fc95133e8b7479b37", 
+"message_subject": "initial commit with phylografter files from 29 Apr, 2014", 
+"relative_date": "2 years, 8 months ago"
+}
+]
+}
+}
+], 
+"height": 900, 
+"marks": [
+{
+"axes": [], 
+"marks": [
+{
+"marks": [
+{
+"from": {
+"data": "tree-1", 
+"transform": [
+{
+"field": "phyloEdges", 
+"type": "pluck"
+}
+]
+}, 
+"properties": {
+"hover": {}, 
+"update": {
+"path": {
+"field": "path"
+}, 
+"stroke": {
+"value": "#777"
+}, 
+"strokeWidth": {
+"value": 2
+}
+}
+}, 
+"type": "path"
+}, 
+{
+"marks": [
+{
+"from": {
+"data": "tree-1", 
+"transform": [
+{
+"field": "phyloNodes", 
+"type": "pluck"
+}
+]
+}, 
+"properties": {
+"enter": {
+"x": {
+"XXscale": "x", 
+"field": "x", 
+"mult": 1
+}, 
+"y": {
+"XXscale": "y", 
+"field": "y", 
+"mult": 1
+}
+}, 
+"hover": {}, 
+"update": {
+"fill": {
+"value": "black"
+}, 
+"shape": {
+"value": "circle"
+}, 
+"size": {
+"value": 8
+}
+}
+}, 
+"type": "symbol"
+}, 
+{
+"from": {
+"data": "tree-1", 
+"transform": [
+{
+"field": "phyloNodes", 
+"type": "pluck"
+}
+]
+}, 
+"properties": {
+"enter": {
+"align": {
+"value": "left"
+}, 
+"angle": {
+"value": -90
+}, 
+"dx": {
+"value": 6
+}, 
+"dy": {
+"value": 4.800000000000001
+}, 
+"fontSize": {
+"value": 12
+}, 
+"x": {
+"field": "x"
+}, 
+"y": {
+"field": "y"
+}
+}, 
+"hover": {
+"fill": {
+"value": "red"
+}
+}, 
+"update": {
+"fill": {
+"value": "black"
+}, 
+"text": {
+"field": "ottTaxonName"
+}
+}
+}, 
+"type": "text"
+}
+], 
+"type": "group"
+}, 
+{
+"marks": [
+{
+"from": {
+"data": "tree-1", 
+"transform": [
+{
+"field": "hotspot", 
+"type": "pluck"
+}
+]
+}, 
+"name": "tree-hotspot", 
+"properties": {
+"hover": {}, 
+"update": {
+"fill": {
+"value": "#000"
+}, 
+"fillOpacity": {
+"value": "0.0"
+}, 
+"path": {
+"field": "path"
+}, 
+"stroke": {
+"value": "#0f0"
+}, 
+"strokeOpacity": {
+"value": "0.0"
+}, 
+"strokeWidth": {
+"value": "1px"
+}
+}
+}, 
+"type": "path"
+}, 
+{
+"from": {
+"data": "tree-1", 
+"transform": [
+{
+"field": "vertexHandles", 
+"type": "pluck"
+}
+]
+}, 
+"name": "vertex-handle actual-size", 
+"properties": {
+"enter": {
+"fill": {
+"value": "#000"
+}, 
+"fillOpacity": {
+"value": "0.0"
+}, 
+"name": {
+"field": "name"
+}, 
+"shape": {
+"field": "shape"
+}, 
+"size": {
+"field": "size"
+}, 
+"stroke": {
+"value": "#f00"
+}, 
+"strokeOpacity": {
+"value": "0.0"
+}, 
+"strokeWidth": {
+"value": "6"
+}, 
+"tooltip": {
+"field": "tooltip"
+}
+}, 
+"hover": {}, 
+"update": {
+"x": {
+"field": "x"
+}, 
+"y": {
+"field": "y"
+}
+}
+}, 
+"type": "symbol"
+}
+], 
+"name": "handles", 
+"type": "group"
+}
+], 
+"name": "tree-1", 
+"properties": {
+"enter": {
+"x": {
+"value": 135.32352941176475
+}, 
+"y": {
+"value": 356.3529411764706
+}
+}, 
+"update": {}
+}, 
+"type": "group"
+}, 
+{
+"marks": [
+{
+"from": {
+"data": "tree-2", 
+"transform": [
+{
+"field": "phyloEdges", 
+"type": "pluck"
+}
+]
+}, 
+"properties": {
+"hover": {}, 
+"update": {
+"path": {
+"field": "path"
+}, 
+"stroke": {
+"value": "#777"
+}, 
+"strokeWidth": {
+"value": 2
+}
+}
+}, 
+"type": "path"
+}, 
+{
+"marks": [
+{
+"from": {
+"data": "tree-2", 
+"transform": [
+{
+"field": "phyloNodes", 
+"type": "pluck"
+}
+]
+}, 
+"properties": {
+"enter": {
+"x": {
+"XXscale": "x", 
+"field": "x", 
+"mult": 1
+}, 
+"y": {
+"XXscale": "y", 
+"field": "y", 
+"mult": 1
+}
+}, 
+"hover": {}, 
+"update": {
+"fill": {
+"value": "black"
+}, 
+"shape": {
+"value": "circle"
+}, 
+"size": {
+"value": 8
+}
+}
+}, 
+"type": "symbol"
+}, 
+{
+"from": {
+"data": "tree-2", 
+"transform": [
+{
+"field": "phyloNodes", 
+"type": "pluck"
+}
+]
+}, 
+"properties": {
+"enter": {
+"align": {
+"value": "left"
+}, 
+"angle": {
+"value": 90
+}, 
+"dx": {
+"value": 6
+}, 
+"dy": {
+"value": 4.800000000000001
+}, 
+"fontSize": {
+"value": 12
+}, 
+"x": {
+"field": "x"
+}, 
+"y": {
+"field": "y"
+}
+}, 
+"hover": {
+"fill": {
+"value": "red"
+}
+}, 
+"update": {
+"fill": {
+"value": "black"
+}, 
+"text": {
+"field": "ottTaxonName"
+}
+}
+}, 
+"type": "text"
+}
+], 
+"type": "group"
+}, 
+{
+"marks": [
+{
+"from": {
+"data": "tree-2", 
+"transform": [
+{
+"field": "hotspot", 
+"type": "pluck"
+}
+]
+}, 
+"name": "tree-hotspot", 
+"properties": {
+"hover": {}, 
+"update": {
+"fill": {
+"value": "#000"
+}, 
+"fillOpacity": {
+"value": "0.0"
+}, 
+"path": {
+"field": "path"
+}, 
+"stroke": {
+"value": "#0f0"
+}, 
+"strokeOpacity": {
+"value": "0.0"
+}, 
+"strokeWidth": {
+"value": "1px"
+}
+}
+}, 
+"type": "path"
+}, 
+{
+"from": {
+"data": "tree-2", 
+"transform": [
+{
+"field": "vertexHandles", 
+"type": "pluck"
+}
+]
+}, 
+"name": "vertex-handle actual-size", 
+"properties": {
+"enter": {
+"fill": {
+"value": "#000"
+}, 
+"fillOpacity": {
+"value": "0.0"
+}, 
+"name": {
+"field": "name"
+}, 
+"shape": {
+"field": "shape"
+}, 
+"size": {
+"field": "size"
+}, 
+"stroke": {
+"value": "#f00"
+}, 
+"strokeOpacity": {
+"value": "0.0"
+}, 
+"strokeWidth": {
+"value": "6"
+}, 
+"tooltip": {
+"field": "tooltip"
+}
+}, 
+"hover": {}, 
+"update": {
+"x": {
+"field": "x"
+}, 
+"y": {
+"field": "y"
+}
+}
+}, 
+"type": "symbol"
+}
+], 
+"name": "handles", 
+"type": "group"
+}
+], 
+"name": "tree-2", 
+"properties": {
+"enter": {
+"x": {
+"value": 422.5
+}, 
+"y": {
+"value": 105.88235294117646
+}
+}, 
+"update": {}
+}, 
+"type": "group"
+}
+], 
+"name": "illustration-elements", 
+"properties": {
+"enter": {
+"height": {
+"value": 990
+}, 
+"width": {
+"value": 765
+}, 
+"x": {
+"value": 0
+}, 
+"y": {
+"value": 0
+}
+}
+}, 
+"scales": [], 
+"type": "group"
+}
+], 
+"padding": {
+"bottom": 0, 
+"left": 0, 
+"right": 0, 
+"top": 0
+}, 
+"style": {}, 
+"width": 800
+}
+}

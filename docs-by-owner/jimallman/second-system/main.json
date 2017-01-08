@@ -3,9 +3,9 @@
 {
 "branchRotation": "UNCHANGED", 
 "data": {}, 
-"height": 396, 
+"height": 211.08075822281205, 
 "id": "tree-1", 
-"layout": "CIRCLE", 
+"layout": "RECTANGLE", 
 "metadata": {
 "description": "", 
 "dois": [], 
@@ -25,11 +25,11 @@
 ], 
 "radialSweep": "CLOCKWISE", 
 "radius": 229.5, 
-"rootX": 281.1094420600858, 
-"rootY": 701.5321888412017, 
+"rootX": 707.4184549356224, 
+"rootY": 555.6523605150214, 
 "style": {}, 
-"tipsAlignment": "RIGHT", 
-"width": 306
+"tipsAlignment": "LEFT", 
+"width": 587.6552115415377
 }, 
 {
 "branchRotation": "UNCHANGED", 
@@ -71,7 +71,7 @@
 "description": "", 
 "dois": [], 
 "name": "second system", 
-"sha": "", 
+"sha": "1b4bf3436d89d0d89af8397cb2227c46135801f6", 
 "tags": []
 }, 
 "style": {
@@ -193,17 +193,17 @@
 }, 
 {
 "branchLengths": "", 
-"height": 396, 
-"layout": "radial", 
+"height": 211.08075822281205, 
+"layout": "cartesian", 
 "radialArc": [
 0, 
 350
 ], 
 "radialSweep": "CLOCKWISE", 
 "radius": 229.5, 
-"tipsAlignment": "RIGHT", 
+"tipsAlignment": "LEFT", 
 "type": "phylogram", 
-"width": 306
+"width": 587.6552115415377
 }
 ], 
 "values": {
@@ -1059,25 +1059,25 @@
 "properties": {
 "enter": {
 "align": {
-"field": "align"
+"value": "right"
 }, 
 "angle": {
-"field": "angle"
+"value": 0
+}, 
+"dx": {
+"value": -6
+}, 
+"dy": {
+"value": 4.800000000000001
 }, 
 "fontSize": {
 "value": 12
 }, 
-"radius": {
-"field": "radius"
-}, 
-"theta": {
-"field": "theta"
-}, 
 "x": {
-"value": 0
+"field": "x"
 }, 
 "y": {
-"value": 0
+"field": "y"
 }
 }, 
 "hover": {
@@ -1199,10 +1199,10 @@
 "properties": {
 "enter": {
 "x": {
-"value": 281.1094420600858
+"value": 707.4184549356224
 }, 
 "y": {
-"value": 701.5321888412017
+"value": 555.6523605150214
 }
 }, 
 "update": {}

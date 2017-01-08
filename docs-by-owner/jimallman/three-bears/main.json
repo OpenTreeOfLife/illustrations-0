@@ -25,8 +25,8 @@
 ], 
 "radialSweep": "CLOCKWISE", 
 "radius": 229.5, 
-"rootX": 294.1051502145923, 
-"rootY": 266.2231759656652, 
+"rootX": 529.2124463519314, 
+"rootY": 246.39484978540764, 
 "style": {}, 
 "tipsAlignment": "RIGHT", 
 "width": 306
@@ -56,8 +56,8 @@
 ], 
 "radialSweep": "CLOCKWISE", 
 "radius": 144.6914658554658, 
-"rootX": 535.293991416309, 
-"rootY": 610.8884120171673, 
+"rootX": 499.88626609442065, 
+"rootY": 668.9570815450643, 
 "style": {}, 
 "tipsAlignment": "RIGHT", 
 "width": 306
@@ -87,8 +87,8 @@
 ], 
 "radialSweep": "CLOCKWISE", 
 "radius": 56.20303535389046, 
-"rootX": 230.12231759656657, 
-"rootY": 870.1545064377683, 
+"rootX": 446.8175965665237, 
+"rootY": 955.1330472103006, 
 "style": {}, 
 "tipsAlignment": "RIGHT", 
 "width": 306
@@ -102,7 +102,7 @@
 "description": "", 
 "dois": [], 
 "name": "Three bears!", 
-"sha": "d3bc3b7100a6747d94ad2c5b5846b2b32219ea54", 
+"sha": "02cbdb7e1b1bc3e95a6f38193e789f77432d89ea", 
 "tags": []
 }, 
 "style": {
@@ -1630,10 +1630,10 @@
 "properties": {
 "enter": {
 "x": {
-"value": 294.1051502145923
+"value": 529.2124463519314
 }, 
 "y": {
-"value": 266.2231759656652
+"value": 246.39484978540764
 }
 }, 
 "update": {}
@@ -1861,10 +1861,10 @@
 "properties": {
 "enter": {
 "x": {
-"value": 535.293991416309
+"value": 499.88626609442065
 }, 
 "y": {
-"value": 610.8884120171673
+"value": 668.9570815450643
 }
 }, 
 "update": {}
@@ -2092,10 +2092,10 @@
 "properties": {
 "enter": {
 "x": {
-"value": 230.12231759656657
+"value": 446.8175965665237
 }, 
 "y": {
-"value": 870.1545064377683
+"value": 955.1330472103006
 }
 }, 
 "update": {}

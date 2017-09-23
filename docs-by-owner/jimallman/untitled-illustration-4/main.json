@@ -25,8 +25,8 @@
 ], 
 "radialSweep": "CLOCKWISE", 
 "radius": 229.5, 
-"rootX": 383.5, 
-"rootY": 491, 
+"rootX": 5.012125534949973, 
+"rootY": 855.3651925820257, 
 "style": {}, 
 "tipsAlignment": "RIGHT", 
 "width": 306
@@ -40,7 +40,7 @@
 "description": "", 
 "dois": [], 
 "name": "Untitled illustration", 
-"sha": "34c7ad611b7e063a6d3b58929b270520fe88fd18", 
+"sha": "35d504e3ac008245a83b4c55365a63ec3d85dc28", 
 "tags": []
 }, 
 "style": {
@@ -180,7 +180,7 @@
 }
 ], 
 "values": {
-"_id": 37, 
+"_id": 289, 
 "branch2sha": {
 "master": "f70872638df984c294f6b9a9324b85bfb4604d87"
 }, 
@@ -772,10 +772,10 @@
 "properties": {
 "enter": {
 "x": {
-"value": 383.5
+"value": 5.012125534949973
 }, 
 "y": {
-"value": 491
+"value": 855.3651925820257
 }
 }, 
 "update": {}

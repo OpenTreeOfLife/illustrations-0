@@ -20,11 +20,11 @@
 }, 
 "nodeLabelField": "ottTaxonName", 
 "radialArc": [
-0, 
+220.27047308911438, 
 350
 ], 
 "radialSweep": "CLOCKWISE", 
-"radius": 229.5, 
+"radius": 64.84842959966335, 
 "rootX": 381.5, 
 "rootY": 500, 
 "style": {}, 
@@ -40,7 +40,7 @@
 "description": "", 
 "dois": [], 
 "name": "Untitled illustration", 
-"sha": "", 
+"sha": "4d24a3fc1f7177477f06da67ea335af14786765b", 
 "tags": []
 }, 
 "style": {
@@ -165,17 +165,381 @@
 "height": 396, 
 "layout": "radial", 
 "radialArc": [
-0, 
+220.27047308911438, 
 350
 ], 
 "radialSweep": "CLOCKWISE", 
-"radius": 229.5, 
+"radius": 64.84842959966335, 
 "tipsAlignment": "RIGHT", 
 "type": "phylogram", 
 "width": 306
 }
 ], 
-"url": "./placeholder-tree.json"
+"values": {
+"_id": 145, 
+"branch2sha": {
+"master": "f70872638df984c294f6b9a9324b85bfb4604d87"
+}, 
+"commentHTML": "<p>A simple placeholder for use in the Tree Illustrator</p>\n", 
+"data": {
+"nexml": {
+"@about": "#study", 
+"@generator": "Open Tree API", 
+"@id": "study", 
+"@nexml2json": "1.0.0", 
+"@nexmljson": "http://purl.org/opentree/nexson", 
+"@version": "0.9", 
+"@xmlns": {
+"$": "http://www.nexml.org/2009", 
+"nex": "http://www.nexml.org/2009", 
+"ot": "http://purl.org/opentree-terms#", 
+"xhtml": "http://www.w3.org/1999/xhtml/vocab#", 
+"xsd": "http://www.w3.org/2001/XMLSchema#", 
+"xsi": "http://www.w3.org/2001/XMLSchema-instance"
+}, 
+"^ot:agents": {
+"agent": [
+{
+"@description": "Open Tree NexSON validation", 
+"@id": "peyotl-validator", 
+"@name": "api.opentreeoflife.org/validate", 
+"@url": "https://github.com/OpenTreeOfLife/peyotl", 
+"@version": "0.0.4a", 
+"invocation": {
+"commandLine": [], 
+"otherProperty": [
+{
+"name": "pythonVersion", 
+"value": "2.7.3"
+}, 
+{
+"name": "pythonImplementation", 
+"value": "CPython"
+}
+]
+}
+}, 
+{
+"@description": "Web-based interface for submitting, editing, and reviewing studies in the Open Tree of Life project.", 
+"@id": "opentree-curation-webapp", 
+"@name": "OpenTree curation webapp", 
+"@url": "https://github.com/OpenTreeOfLife/opentree", 
+"@version": "0.0.0"
+}
+]
+}, 
+"^ot:annotationEvents": {
+"annotation": [
+{
+"@dateCreated": "2014-11-24T06:47:06.636Z", 
+"@description": "Aids for mapping study OTUs to OTT taxa", 
+"@id": "otu-mapping-hints", 
+"@passedChecks": true, 
+"@preserve": true, 
+"@wasAssociatedWithAgentId": "opentree-curation-webapp", 
+"message": [
+{
+"@code": "OTU_MAPPING_HINTS", 
+"@humanMessageType": "NONE", 
+"@severity": "INFO", 
+"data": {
+"searchContext": {
+"$": "All life"
+}, 
+"substitutions": {
+"substitution": [
+{
+"@active": false, 
+"@valid": true, 
+"new": {
+"$": ""
+}, 
+"old": {
+"$": ""
+}
+}
+]
+}, 
+"useFuzzyMatching": true
+}, 
+"refersTo": {
+"@top": {
+"$": "meta"
+}
+}
+}
+]
+}, 
+{
+"@dateCreated": "2014-11-24T06:47:06.635Z", 
+"@description": "Describes supporting data files for this study", 
+"@id": "supporting-files-metadata", 
+"@passedChecks": true, 
+"@preserve": true, 
+"@wasAssociatedWithAgentId": "opentree-curation-webapp", 
+"message": [
+{
+"@code": "SUPPORTING_FILE_INFO", 
+"@humanMessageType": "NONE", 
+"@severity": "INFO", 
+"data": {
+"@movedToPermanentArchive": false, 
+"files": {
+"file": [
+{
+"@filename": "PASTED.tre", 
+"@size": 14, 
+"@type": "newick", 
+"@url": "/curator/download/supporting_files.doc.9c737f3dc9add903.5041535445442e747265.tre", 
+"description": {
+"$": "Source data for tree 'tree1'"
+}, 
+"sourceForTree": [
+{
+"$": "tree1"
+}
+]
+}
+]
+}
+}, 
+"refersTo": {
+"@top": {
+"$": "meta"
+}
+}
+}
+]
+}, 
+{
+"@description": "Open Tree NexSON validation", 
+"@id": "peyotl-validator-event", 
+"@passedChecks": true, 
+"@preserve": false, 
+"@wasAssociatedWithAgentId": "peyotl-validator", 
+"message": [
+{
+"@code": "UNRECOGNIZED_KEY", 
+"@severity": "WARNING", 
+"data": [
+"^ot:comment"
+], 
+"refersTo": {
+"@idref": "study", 
+"@top": "nexml"
+}
+}, 
+{
+"@code": "UNRECOGNIZED_KEY", 
+"@severity": "WARNING", 
+"data": [
+"^ot:nodeLabelMode", 
+"^ot:nodeLabelTimeUnit"
+], 
+"refersTo": {
+"@idref": "tree1", 
+"@top": "trees", 
+"@treeID": "tree1", 
+"@treesID": "tree1"
+}
+}
+]
+}
+]
+}, 
+"^ot:candidateTreeForSynthesis": [], 
+"^ot:comment": "This is just to provide a simple placeholder tree for the Tree Illustrator.", 
+"^ot:curatorName": [
+"Jim Allman"
+], 
+"^ot:dataDeposit": {
+"@href": "http://www.example.com/"
+}, 
+"^ot:focalCladeOTTTaxonName": "", 
+"^ot:messages": {
+"message": []
+}, 
+"^ot:notIntendedForSynthesis": true, 
+"^ot:studyId": "tt_23", 
+"^ot:studyPublication": {
+"@href": "asdf"
+}, 
+"^ot:studyPublicationReference": "Allman, Jim. Study to create a placeholder tree for the Tree Illustrator application, 1999.", 
+"^ot:studyYear": 1999, 
+"^ot:tag": [], 
+"otus": [
+{
+"@id": "otus1", 
+"otu": [
+{
+"@id": "otu1", 
+"^ot:originalLabel": "A", 
+"^ot:ottId": 36826, 
+"^ot:ottTaxonName": "Placeholder A"
+}, 
+{
+"@id": "otu2", 
+"^ot:originalLabel": "B", 
+"^ot:ottId": 5248790, 
+"^ot:ottTaxonName": "Placeholder B"
+}, 
+{
+"@id": "otu3", 
+"^ot:originalLabel": "C", 
+"^ot:ottId": 3047075, 
+"^ot:ottTaxonName": "Placeholder C"
+}, 
+{
+"@id": "otu4", 
+"^ot:originalLabel": "D", 
+"^ot:ottId": 5260612, 
+"^ot:ottTaxonName": "Placeholder D"
+}
+]
+}
+], 
+"trees": [
+{
+"@id": "trees1", 
+"@otus": "otus1", 
+"tree": [
+{
+"@id": "tree1", 
+"@label": "Placeholder tree", 
+"@xsi:type": "nex:FloatTree", 
+"^ot:branchLengthDescription": "", 
+"^ot:branchLengthMode": "ot:undefined", 
+"^ot:branchLengthTimeUnit": "Myr", 
+"^ot:curatedType": "", 
+"^ot:inGroupClade": "", 
+"^ot:nodeLabelMode": "", 
+"^ot:nodeLabelTimeUnit": "", 
+"^ot:outGroupEdge": "", 
+"^ot:specifiedRoot": "", 
+"^ot:tag": [], 
+"^ot:unrootedTree": true, 
+"edge": [
+{
+"@id": "edge1", 
+"@source": "node1", 
+"@target": "node2"
+}, 
+{
+"@id": "edge2", 
+"@source": "node1", 
+"@target": "node3"
+}, 
+{
+"@id": "edge3", 
+"@source": "node3", 
+"@target": "node4"
+}, 
+{
+"@id": "edge4", 
+"@source": "node3", 
+"@target": "node5"
+}, 
+{
+"@id": "edge5", 
+"@source": "node5", 
+"@target": "node6"
+}, 
+{
+"@id": "edge6", 
+"@source": "node5", 
+"@target": "node7"
+}
+], 
+"node": [
+{
+"@id": "node1", 
+"@root": true
+}, 
+{
+"@id": "node2", 
+"@otu": "otu1", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node3"
+}, 
+{
+"@id": "node4", 
+"@otu": "otu2", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node5"
+}, 
+{
+"@id": "node6", 
+"@otu": "otu3", 
+"^ot:isLeaf": true
+}, 
+{
+"@id": "node7", 
+"@otu": "otu4", 
+"^ot:isLeaf": true
+}
+]
+}
+]
+}
+]
+}
+}, 
+"duplicateStudyIDs": [], 
+"sha": "f70872638df984c294f6b9a9324b85bfb4604d87", 
+"versionHistory": [
+{
+"author_email": "jim@ibang.com", 
+"author_name": "Jim Allman", 
+"date": "Mon, 24 Nov 2014 06:59:15 +0000", 
+"date_ISO_8601": "2014-11-24 06:59:15 +0000", 
+"id": "f70872638df984c294f6b9a9324b85bfb4604d87", 
+"message_body": "(Update Study #tt_23 via OpenTree API)", 
+"message_subject": "Placeholder tree", 
+"relative_date": "3 minutes ago"
+}, 
+{
+"author_email": "jim@ibang.com", 
+"author_name": "Jim Allman", 
+"date": "Mon, 24 Nov 2014 06:51:25 +0000", 
+"date_ISO_8601": "2014-11-24 06:51:25 +0000", 
+"id": "53f7a54d50558233f342d57b8c38980552511722", 
+"message_body": "(Update Study #tt_23 via OpenTree API)", 
+"message_subject": "Placeholder tree", 
+"relative_date": "11 minutes ago"
+}, 
+{
+"author_email": "jim@ibang.com", 
+"author_name": "Jim Allman", 
+"date": "Mon, 24 Nov 2014 06:47:04 +0000", 
+"date_ISO_8601": "2014-11-24 06:47:04 +0000", 
+"id": "05dfd42aa791105b91bcbee75b56e2810be651cc", 
+"message_subject": "Update Study #tt_23 via OpenTree API", 
+"relative_date": "15 minutes ago"
+}, 
+{
+"author_email": "ANONYMOUS", 
+"author_name": "ANONYMOUS", 
+"date": "Fri, 31 Oct 2014 04:42:20 +0000", 
+"date_ISO_8601": "2014-10-31 04:42:20 +0000", 
+"id": "01aeac09b2d2adcb863afbdc6c52da4ba78078c6", 
+"message_subject": "Delete Study #tt_23 via OpenTree API", 
+"relative_date": "3 weeks ago"
+}, 
+{
+"author_email": "ANONYMOUS", 
+"author_name": "ANONYMOUS", 
+"date": "Fri, 31 Oct 2014 04:41:41 +0000", 
+"date_ISO_8601": "2014-10-31 04:41:41 +0000", 
+"id": "56b39bee84c7579d214ce98744af7bdcc540916a", 
+"message_subject": "Update Study #tt_23 via OpenTree API", 
+"relative_date": "3 weeks ago"
+}
+]
+}
 }
 ], 
 "height": 900, 

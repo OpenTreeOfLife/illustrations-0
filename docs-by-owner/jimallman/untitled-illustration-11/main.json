@@ -20,13 +20,13 @@
 }, 
 "nodeLabelField": "ottTaxonName", 
 "radialArc": [
-0, 
+220.27047308911438, 
 350
 ], 
 "radialSweep": "CLOCKWISE", 
-"radius": 229.5, 
-"rootX": 384.5, 
-"rootY": 498, 
+"radius": 64.84842959966335, 
+"rootX": 381.5, 
+"rootY": 500, 
 "style": {}, 
 "tipsAlignment": "RIGHT", 
 "width": 306
@@ -36,11 +36,11 @@
 "authors": [
 "Jim Allman"
 ], 
-"date_created": "2017-09-22T22:24:37.366Z", 
+"date_created": "2017-09-22T22:14:22.328Z", 
 "description": "", 
 "dois": [], 
 "name": "Untitled illustration", 
-"sha": "", 
+"sha": "ff77f6e756e03f3f2b65438ad03c2715679e29a6", 
 "tags": []
 }, 
 "style": {
@@ -165,11 +165,11 @@
 "height": 396, 
 "layout": "radial", 
 "radialArc": [
-0, 
+220.27047308911438, 
 350
 ], 
 "radialSweep": "CLOCKWISE", 
-"radius": 229.5, 
+"radius": 64.84842959966335, 
 "tipsAlignment": "RIGHT", 
 "type": "phylogram", 
 "width": 306
@@ -404,10 +404,10 @@
 "properties": {
 "enter": {
 "x": {
-"value": 384.5
+"value": 381.5
 }, 
 "y": {
-"value": 498
+"value": 500
 }
 }, 
 "update": {}

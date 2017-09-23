@@ -25,8 +25,8 @@
 ], 
 "radialSweep": "CLOCKWISE", 
 "radius": 229.5, 
-"rootX": 764.8124108416548, 
-"rootY": 797.4621968616262, 
+"rootX": 384.5, 
+"rootY": 498, 
 "style": {}, 
 "tipsAlignment": "RIGHT", 
 "width": 306
@@ -36,21 +36,21 @@
 "authors": [
 "Jim Allman"
 ], 
-"date_created": "2017-09-22T22:27:54.405Z", 
+"date_created": "2017-09-22T22:24:37.366Z", 
 "description": "", 
 "dois": [], 
 "name": "Untitled illustration", 
-"sha": "", 
+"sha": "f5873dc88870a743483e30c0284e35be06c30be1", 
 "tags": []
 }, 
 "style": {
 "backgroundColor": "#fdd", 
-"border": "6px solid pink", 
-"edgeColor": "#933", 
-"edgeThickness": 4.5, 
+"border": "none", 
+"edgeColor": "#777", 
+"edgeThickness": 0.8, 
 "fontFamily": "Times New Roman, Times, serif", 
-"nodeColor": "#88f", 
-"nodeShape": "diamond", 
+"nodeColor": "#339", 
+"nodeShape": "circle", 
 "printSize": {
 "height": 11, 
 "units": "INCHES", 
@@ -60,7 +60,7 @@
 "styleGuide": {
 "constraints": {
 "backgroundColor": "#fdd", 
-"border": "6px solid pink", 
+"border": "none", 
 "colorDepths": [
 {
 "name": "Full color", 
@@ -75,34 +75,48 @@
 "value": "BLACK_AND_WHITE"
 }
 ], 
-"edgeColor": "#933", 
-"edgeThickness": 4.5, 
+"edgeColor": "#777", 
+"edgeThickness": 0.8, 
 "fontFamilies": [
 {
-"name": "Big and bold", 
-"value": "Impact, Arial Black, sans serif"
+"name": "Times New Roman", 
+"value": "Times New Roman, Times, serif"
 }, 
 {
 "name": "Helvetica", 
 "value": "Helvetica, Arial, sans"
 }, 
 {
-"name": "Typewriter", 
-"value": "Courier New, Courier, monospace"
-}, 
-{
-"name": "Times New Roman", 
-"value": "Times New Roman, Times, serif"
+"name": "Arial", 
+"value": "Arial, sans"
 }, 
 {
 "name": "Something else"
 }
 ], 
-"minimumLineThickness": 9, 
-"minimumTextSize": 24, 
-"nodeColor": "#88f", 
-"nodeShape": "diamond", 
+"minimumLineThickness": 2, 
+"minimumTextSize": 12, 
+"nodeColor": "#339", 
+"nodeShape": "circle", 
 "printSizes": [
+{
+"height": 11, 
+"name": "Letter size (portrait)", 
+"units": "INCHES", 
+"width": 8.5
+}, 
+{
+"height": 8.5, 
+"name": "Letter size (landscape)", 
+"units": "INCHES", 
+"width": 11
+}, 
+{
+"height": 5.5, 
+"name": "Quarter-page (portrait)", 
+"units": "INCHES", 
+"width": 4.25
+}, 
 {
 "height": 4.25, 
 "name": "Quarter-page (landscape)", 
@@ -110,37 +124,19 @@
 "width": 5.5
 }, 
 {
-"height": 6, 
-"name": "Bookmark", 
-"units": "INCHES", 
-"width": 1.5
-}, 
-{
-"height": 1.75, 
-"name": "Postage stamp", 
-"units": "INCHES", 
-"width": 1.5
-}, 
-{
-"height": 36, 
-"name": "Conference poster", 
-"units": "INCHES", 
-"width": 48
-}, 
-{
 "name": "Custom size"
 }
 ]
 }, 
-"description": "Some fairly extreme options, chosen to demonstrate the Tree Illustrator's flexibility.", 
-"name": "Playing with the zoom", 
+"description": "Style guides are used to suggest and constrain the overall look of your illustration for a particular publication or context. You can try different styles using the <strong>Load styles...</strong> button.", 
+"name": "Default styles", 
 "source": {
 "type": "BUILT_IN", 
 "value": "DEFAULT"
 }, 
 "version": {
 "type": "SEMANTIC", 
-"value": "0.0a"
+"value": "0.1"
 }
 }, 
 "vegaSpec": {
@@ -206,10 +202,10 @@
 "field": "path"
 }, 
 "stroke": {
-"value": "#933"
+"value": "#777"
 }, 
 "strokeWidth": {
-"value": 9
+"value": 2
 }
 }
 }, 
@@ -274,7 +270,7 @@
 "field": "angle"
 }, 
 "fontSize": {
-"value": 24
+"value": 12
 }, 
 "radius": {
 "field": "radius"
@@ -408,10 +404,10 @@
 "properties": {
 "enter": {
 "x": {
-"value": 764.8124108416548
+"value": 384.5
 }, 
 "y": {
-"value": 797.4621968616262
+"value": 498
 }
 }, 
 "update": {}
